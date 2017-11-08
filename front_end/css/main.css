@@ -5,4 +5,33 @@
     --font: 'Barlow', sans-serif;
 }
 
-body { font-family: var(--font);}
+body { 
+    font-family: var(--font);
+    display: flex;
+}
+
+
+nav {
+    width: 200px;
+}
+
+main {
+    flex-grow: 2;
+}
+
+main, main img, button, p {
+    width: 75%;
+}
+
+button {
+    background: var(--button);
+}
+
+aside {
+    width: 300px;
+    flex-grow: 2;
+}
+
+aside img {
+    width: 60px;
+}
