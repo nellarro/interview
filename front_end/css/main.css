@@ -1,6 +1,7 @@
 :root {
 	--primary: #14A085;
     --button: #4FBA6F;
+    --gray: #888888;
     --overlay: rgba(34, 34, 34, 0.31);
     --font: 'Barlow', sans-serif;
 }
@@ -8,6 +9,7 @@
 body { 
     font-family: var(--font);
     display: flex;
+    margin: 0 auto;
 }
 
 nav {
@@ -24,6 +26,19 @@ main {
 main img, button, p {
     width: 75%;
     justify-content: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    color: var(--gray);
+}
+
+p {
+    font-size: 20px;
 }
 
 button {
