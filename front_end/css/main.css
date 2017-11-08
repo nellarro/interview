@@ -19,12 +19,22 @@ main {
     flex-grow: 2;
 }
 
-main, main img, button, p {
+main {
+    width: 75vw;
+}
+main img, button, p {
     width: 75%;
+    justify-content: center;
 }
 
 button {
     background: var(--button);
+    height: 50px;
+    color: white;
+    border-radius: 12px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 aside {
